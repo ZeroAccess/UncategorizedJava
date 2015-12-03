@@ -1,0 +1,35 @@
+Charles Lim Project:
+
+Create a program (any language/ui/etc) that will take a start date and time and will determine the end date and
+time for a particular SLA.
+
+Calendar API
+(Establish M-F with weekends off)
+
+Variables:
+hoursRemaining;
+startDate
+
+clockIn
+lunchBegin (Use same Date) Time
+lunchEnd (Use same Date) Time
+clockOut
+
+endDate
+slaTimeRequest
+
+
+while($hoursRemaining >= 8)
+	{
+	endDate +1;
+    $hoursRemaining = $hoursRemaining -8;
+	}
+
+
+Example
+Start Date/Time: 6/30/15 Tuesday 4:25pm
+SLA: 18 hours
+Workday: Start: 8am - 12:00pm
+			 Lunch: 12:00pm - 1:00pm
+			 End: 1:00pm - 5:00pm
+End Date/Time: 7/3/2015 Friday 9:35am
